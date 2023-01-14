@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pollFragment">
+
+    <fragment
+        android:id="@+id/pollFragment"
+        android:name="vk.cup.dzen.presentation.poll.PollFragment"
+        android:label="PollFragment" />
+    <fragment
+        android:id="@+id/comparisonFragment"
+        android:name="vk.cup.dzen.presentation.comparison.ComparisonFragment"
+        android:label="ComparisonFragment" />
+    <fragment
+        android:id="@+id/dragFragment"
+        android:name="vk.cup.dzen.presentation.drag.DragFragment"
+        android:label="DragFragment" />
+    <fragment
+        android:id="@+id/fillingFragment"
+        android:name="vk.cup.dzen.presentation.filling.FillingFragment"
+        android:label="FillingFragment" />
+    <fragment
+        android:id="@+id/rateFragment"
+        android:name="vk.cup.dzen.presentation.rate.RateFragment"
+        android:label="RateFragment" />
+</navigation>

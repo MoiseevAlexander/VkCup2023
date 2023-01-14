@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pollFragment"
+        android:enabled="true"
+        android:title="Poll" />
+    <item
+        android:id="@+id/comparisonFragment"
+        android:enabled="true"
+        android:title="Comparison" />
+    <item
+        android:id="@+id/dragFragment"
+        android:enabled="true"
+        android:title="Drag" />
+    <item
+        android:id="@+id/fillingFragment"
+        android:enabled="true"
+        android:title="Filling" />
+    <item
+        android:id="@+id/rateFragment"
+        android:enabled="true"
+        android:title="Rate" />
+</menu>
